@@ -1,0 +1,39 @@
+---
+title: "README"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# City Income & Rent Dashboard (Canada, 2021)
+
+## Overview
+This project analyzes the relationship between median income and housing rent
+across Canadian cities, with a focus on affordability using a rent-to-income ratio.
+
+## Key Questions
+- How strongly are income and rent correlated?
+- Which cities are the most and least affordable?
+- How does affordability vary across regions?
+
+## Data
+- Source: Public datasets (2021)
+- Currency: CAD
+- Unit of analysis: City
+
+## Methodology
+- Data cleaning and merging at city level
+- Exploratory data analysis (EDA)
+- Affordability metric: annual rent / annual income
+- Ranking cities by affordability
+
+## Outputs
+- Interactive HTML dashboard
+- Cleaned dataset for reuse
+- Publication-ready visualizations
+
+## Repository Structure
+data/        # Raw and cleaned datasets
+scripts/     # Reusable functions (loading, cleaning, plotting)
+notebook/    # Executable R Markdown analysis
+visuals/     # Exported charts
